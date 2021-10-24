@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      background-color: #F1F2F5;
+    }
+
+    .wrapper {
+      width: 400px;
+      background-color: white;
+      margin: auto;
+      margin-top: 100px;
+      border-radius: 10px;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+      padding: 16px;
+      box-sizing: border-box;
+    }
+
+    .poster {
+      width: 100%;
+    }
+
+    .comment {
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+      padding: 16px;
+      box-sizing: border-box;
+      margin: 4px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Harry Potter and the Deathly Hallows</h1>
+      <h3>J.K Rowling:</h3>
+      <p>Can you rate this movie? Do you like it</p>
+    </header>
+    <main>
+      <img src="movie-poster.jpg" alt="Harry Potter and the Deathly Hallows poster" style="width: 24rem;">
+      <h2>Comments</h2>
+      <hr>
+      <div class="comments">
+        <p class="comment"><b>Harry Potter 5/5</b></p>
+        <p class="comment"><b>Hermione Granger 4/5</b></p>
+        <p class="comment"><b>Ron Weasley 4/5</b><br> Best one!</p>
+      </div>
+    </main>
+    <hr>
+    <footer>
+      <form action="">
+        <label for="comment">Write your comment:</label>
+        <textarea name="comment" id="" cols="30" rows="5"></textarea>
+        <br>
+        <label for="range">0</label>
+        <input type="range" name="" id="range">
+        <label for="range">5</label>
+        <br>
+        <input type="button" value="Send comment">
+      </form>
+    </footer>
+  </div>
+</body>
+
+</html>
